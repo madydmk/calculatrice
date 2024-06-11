@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/numberA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number a"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numberB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number b"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numberC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number c"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSoustraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soustraction"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
